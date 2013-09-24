@@ -1,0 +1,43 @@
+{"frames": [
+	{
+		"filename": "joystick-toggle.png", "rotated": false,"trimmed": true,
+		"frame": {"x":47,"y":67,"w":44,"h":23},
+		"spriteSourceSize": {"x":0,"y":0,"w":44,"h":23},
+		"sourceSize": {"w":44,"h":23}
+	},
+	{
+		"filename": "touch-point-large.png", "rotated": false,"trimmed": true,
+		"frame": {"x":0,"y":0,"w":61,"h":65},
+		"spriteSourceSize": {"x":0,"y":0,"w":61,"h":65},
+		"sourceSize": {"w":61,"h":65}
+	},
+	{
+		"filename": "touch-point-small-A.png", "rotated": false,"trimmed": true,
+		"frame": {"x":0,"y":196,"w":45,"h":41},
+		"spriteSourceSize": {"x":0,"y":0,"w":45,"h":41},
+		"sourceSize": {"w":45,"h":41}
+	},
+	{
+		"filename": "touch-point-small-B.png", "rotated": false,"trimmed": true,
+		"frame": {"x":0,"y":110,"w":45,"h":41},
+		"spriteSourceSize": {"x":0,"y":0,"w":45,"h":41},
+		"sourceSize": {"w":45,"h":41}
+	},
+	{
+		"filename": "touch-point-small-C.png", "rotated": false,"trimmed": true,
+		"frame": {"x":0,"y":67,"w":45,"h":41},
+		"spriteSourceSize": {"x":0,"y":0,"w":45,"h":41},
+		"sourceSize": {"w":45,"h":41}
+	},
+	{
+		"filename": "touch-point-small.png", "rotated": false,"trimmed": true,
+		"frame": {"x":0,"y":153,"w":45,"h":41},
+		"spriteSourceSize": {"x":0,"y":0,"w":45,"h":41},
+		"sourceSize": {"w":45,"h":41}
+	},
+{"emptyObject":"keeps this template from breaking"}]
+,"meta": {
+	"app": "ShoeBox",
+	"size": {"w":128,"h":256}
+}
+}

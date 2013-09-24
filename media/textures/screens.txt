@@ -1,0 +1,31 @@
+{"frames": [
+	{
+		"filename": "background-image.png", "rotated": false,"trimmed": true,
+		"frame": {"x":0,"y":0,"w":400,"h":263},
+		"spriteSourceSize": {"x":0,"y":0,"w":400,"h":263},
+		"sourceSize": {"w":400,"h":263}
+	},
+	{
+		"filename": "background-mask.png", "rotated": false,"trimmed": true,
+		"frame": {"x":402,"y":0,"w":377,"h":300},
+		"spriteSourceSize": {"x":0,"y":0,"w":377,"h":300},
+		"sourceSize": {"w":377,"h":300}
+	},
+	{
+		"filename": "start-text.png", "rotated": false,"trimmed": true,
+		"frame": {"x":0,"y":348,"w":136,"h":7},
+		"spriteSourceSize": {"x":0,"y":0,"w":136,"h":7},
+		"sourceSize": {"w":136,"h":7}
+	},
+	{
+		"filename": "title.png", "rotated": false,"trimmed": true,
+		"frame": {"x":0,"y":265,"w":250,"h":81},
+		"spriteSourceSize": {"x":0,"y":0,"w":250,"h":81},
+		"sourceSize": {"w":250,"h":81}
+	},
+{"emptyObject":"keeps this template from breaking"}]
+,"meta": {
+	"app": "ShoeBox",
+	"size": {"w":1024,"h":512}
+}
+}
