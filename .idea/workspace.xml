@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b343c293-6438-476e-8855-e022877b17e8" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/abilities/ability-shoot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/abilities/ability.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/abilities/glow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/abilities/interact.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/abilities/melee.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/abilities/mimic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/abstractities/character.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/abstractities/demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/abstractities/door-usable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/abstractities/door.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/abstractities/effect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/abstractities/lever.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/abstractities/particle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/abstractities/player.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/abstractities/projectile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/abstractities/shape.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/abstractities/spawner-character.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/abstractities/spawner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/abstractities/tutorial.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/config-user.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/core/animation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/core/background-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/core/camera.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/core/collision-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/core/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/core/entity.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/core/hierarchy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/core/image-drawing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/core/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/core/input.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/core/layer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/core/loader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/core/timer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/ability-upgrade.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/camera-atmosphere.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/camera-shake.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/checkpoint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/conversation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/demo-hold.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/demo-swipe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/demo-tap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/destructable-collide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/destructable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/direction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/dummy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/effect-electricity.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/effect-pow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/explosion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/lava.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/light.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/pain-instagib.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/pain.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/particle-color.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/particle-debris.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/shape-climbable-one-way.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/shape-climbable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/shape-edge.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/shape-solid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/slime.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/switch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/trigger-constant.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/trigger-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/trigger-input.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/trigger-reverse-constant.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/trigger-reverse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/trigger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/tutorial-swipe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/tutorial-tap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/entities/void.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/helpers/shims.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/helpers/signals.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/helpers/tweens.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/helpers/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/helpers/utilscolor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/helpers/utilsdraw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/helpers/utilsintersection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/helpers/utilsmath.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/helpers/utilsphysics.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/helpers/utilstile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/helpers/utilsvector2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/physics/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/physics/box2d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/physics/character.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/physics/debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/physics/entity.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/physics/game.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/ui/ui-element.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/ui/ui-interactive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/ui/ui-meter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/ui/ui-overlay-pause.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/ui/ui-overlay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/ui/ui-text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/ui/ui-toggle-pause.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/ui/ui-toggle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plusplus/ui/ui-tracker.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/actor-enemyBoss.js" afterPath="$PROJECT_DIR$/lib/game/entities/actor-enemyBoss.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/actor-enemyKamikaze.js" afterPath="$PROJECT_DIR$/lib/game/entities/actor-enemyKamikaze.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/actor-player.js" afterPath="$PROJECT_DIR$/lib/game/entities/actor-player.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/gui.js" afterPath="$PROJECT_DIR$/lib/game/gui.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/main.js" afterPath="$PROJECT_DIR$/lib/game/main.js" />
+    </list>
+    <ignored path="impact.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="impact" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/game/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="152" column="17" selection-start="6210" selection-end="6210" vertical-scroll-proportion="0.0" vertical-offset="2100" max-vertical-offset="5145">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/plugins/impact-tween/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="147" column="4" selection-start="5308" selection-end="5308" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="3750">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerInfoLeft.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/game/UI/PlayerInfoLeft.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="41" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actor-enemyBoss.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-enemyBoss.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="0" selection-start="1678" selection-end="1707" vertical-scroll-proportion="0.5798576" vertical-offset="60" max-vertical-offset="9480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerInfoRight.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/game/UI/PlayerInfoRight.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="49" selection-start="764" selection-end="847" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actor-player.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-player.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="2" selection-start="1565" selection-end="1601" vertical-scroll-proportion="-17.846153" vertical-offset="256" max-vertical-offset="3165">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actor-enemyKamikaze.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-enemyKamikaze.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="29" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
+              <folding>
+                <marker date="1380748572000" expanded="true" signature="0:258" placeholder="/**  @actor-enemyKamikaze.js ...*/" />
+                <marker date="1380748572000" expanded="true" signature="374:2337" placeholder="{...}" />
+                <marker date="1380748572000" expanded="true" signature="431:2333" placeholder="{&quot;health&quot;: 5...}" />
+                <marker date="1380748572000" expanded="true" signature="441:569" placeholder="/** Property Definitions ...*/" />
+                <marker date="1380748572000" expanded="true" signature="683:731" placeholder="{&quot;x&quot;: 30...}" />
+                <marker date="1380748572000" expanded="true" signature="749:797" placeholder="{...}" />
+                <marker date="1380748572000" expanded="true" signature="817:865" placeholder="{&quot;x&quot;: 150...}" />
+                <marker date="1380748572000" expanded="true" signature="987:1204" placeholder="{...}" />
+                <marker date="1380748572000" expanded="true" signature="1234:2011" placeholder="{...}" />
+                <marker date="1380748572000" expanded="true" signature="1430:1711" placeholder="{...}" />
+                <marker date="1380748572000" expanded="true" signature="1809:1886" placeholder="{...}" />
+                <marker date="1380748572000" expanded="true" signature="1937:2001" placeholder="{...}" />
+                <marker date="1380748572000" expanded="true" signature="2063:2304" placeholder="{...}" />
+                <marker date="1380748572000" expanded="true" signature="2130:2294" placeholder="{...}" />
+                <marker date="1380748572000" expanded="true" signature="2219:2281" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/lib/game/entities/actor-player.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/actor-enemyKamikaze.js" />
+        <option value="$PROJECT_DIR$/lib/plugins/impact-tween/README.md" />
+        <option value="$PROJECT_DIR$/lib/game/UI/playerInfo.js" />
+        <option value="$PROJECT_DIR$/lib/game/UI/PlayerInfoRight.js" />
+        <option value="$PROJECT_DIR$/lib/game/main.js" />
+        <option value="$PROJECT_DIR$/lib/game/UI/PlayerInfoLeft.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/actor-enemyBoss.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="572" />
+    <option name="y" value="22" />
+    <option name="width" value="1336" />
+    <option name="height" value="1132" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impact-tween" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="Settings.JavaScript" />
+    <property name="JavaScriptLanguageLevel" value="ES5" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/Downloads" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b343c293-6438-476e-8855-e022877b17e8" name="Default" comment="" />
+      <created>1380669015764</created>
+      <updated>1380669015764</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="572" y="22" width="1336" height="1132" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297975" sideWeight="0.7784431" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22155689" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="impact" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="impact" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/plugins/impact-tween/edit-tween.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="27" selection-start="401" selection-end="401" vertical-scroll-proportion="-4.0" vertical-offset="3771" max-vertical-offset="4635">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-enemyKamikaze.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="29" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
+          <folding>
+            <marker date="1380748572000" expanded="true" signature="0:258" placeholder="/**  @actor-enemyKamikaze.js ...*/" />
+            <marker date="1380748572000" expanded="true" signature="374:2337" placeholder="{...}" />
+            <marker date="1380748572000" expanded="true" signature="431:2333" placeholder="{&quot;health&quot;: 5...}" />
+            <marker date="1380748572000" expanded="true" signature="441:569" placeholder="/** Property Definitions ...*/" />
+            <marker date="1380748572000" expanded="true" signature="683:731" placeholder="{&quot;x&quot;: 30...}" />
+            <marker date="1380748572000" expanded="true" signature="749:797" placeholder="{...}" />
+            <marker date="1380748572000" expanded="true" signature="817:865" placeholder="{&quot;x&quot;: 150...}" />
+            <marker date="1380748572000" expanded="true" signature="987:1204" placeholder="{...}" />
+            <marker date="1380748572000" expanded="true" signature="1234:2011" placeholder="{...}" />
+            <marker date="1380748572000" expanded="true" signature="1430:1711" placeholder="{...}" />
+            <marker date="1380748572000" expanded="true" signature="1809:1886" placeholder="{...}" />
+            <marker date="1380748572000" expanded="true" signature="1937:2001" placeholder="{...}" />
+            <marker date="1380748572000" expanded="true" signature="2063:2304" placeholder="{...}" />
+            <marker date="1380748572000" expanded="true" signature="2130:2294" placeholder="{...}" />
+            <marker date="1380748572000" expanded="true" signature="2219:2281" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="2" selection-start="1565" selection-end="1601" vertical-scroll-proportion="-17.846153" vertical-offset="256" max-vertical-offset="3165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="17" selection-start="6210" selection-end="6210" vertical-scroll-proportion="0.0" vertical-offset="2100" max-vertical-offset="5145">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/plugins/impact-tween/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="4" selection-start="5308" selection-end="5308" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="3750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/UI/PlayerInfoLeft.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="41" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/UI/PlayerInfoRight.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="49" selection-start="764" selection-end="847" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-enemyBoss.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1678" selection-end="1707" vertical-scroll-proportion="0.5798576" vertical-offset="60" max-vertical-offset="9480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
