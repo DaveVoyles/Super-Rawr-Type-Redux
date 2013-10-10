@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b343c293-6438-476e-8855-e022877b17e8" name="Default" comment="" />
+    <list default="true" id="b343c293-6438-476e-8855-e022877b17e8" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/game/entities/base-actor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/game/entities/object-enemyBulletsRound.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/plugins/Path.js" afterPath="$PROJECT_DIR$/lib/plugins/Path.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/actor-companion.js" afterPath="$PROJECT_DIR$/lib/game/entities/actor-companion.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/actor-enemySpawner.js" afterPath="$PROJECT_DIR$/lib/game/entities/actor-enemySpawner.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/actor-follower.js" afterPath="$PROJECT_DIR$/lib/game/entities/actor-follower.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/actor-player.js" afterPath="$PROJECT_DIR$/lib/game/entities/actor-player.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/actor-turret.js" afterPath="$PROJECT_DIR$/lib/game/entities/actor-turret.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/base-enemy.js" afterPath="$PROJECT_DIR$/lib/game/entities/base-enemy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/base-player.js" afterPath="$PROJECT_DIR$/lib/game/entities/base-player.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/main.js" afterPath="$PROJECT_DIR$/lib/game/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/menus.js" afterPath="$PROJECT_DIR$/lib/game/menus.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/object-enemyBullet.js" afterPath="$PROJECT_DIR$/lib/game/entities/object-enemyBullet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/object-enemyBulletBlue.js" afterPath="$PROJECT_DIR$/lib/game/entities/object-enemyBulletBlue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/object-enemyBulletGreen.js" afterPath="$PROJECT_DIR$/lib/game/entities/object-enemyBulletGreen.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="impact.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,28 +40,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/game/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="129" column="42" selection-start="5038" selection-end="5038" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5280">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actor-player.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-player.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="40" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3060">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base-player.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/game/entities/base-player.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="26" selection-start="712" selection-end="712" vertical-scroll-proportion="0.6486486" vertical-offset="0" max-vertical-offset="2400">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actor-companion.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-companion.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="22" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1680">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="actor-turret.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-turret.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="11" selection-start="3630" selection-end="3630" vertical-scroll-proportion="0.0" vertical-offset="973" max-vertical-offset="1770">
+            <state line="12" column="32" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1770">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="actor-player.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-player.js">
+      <file leaf-file-name="actor-testFollower.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-testFollower.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="37" selection-start="1468" selection-end="1468" vertical-scroll-proportion="0.77164364" vertical-offset="60" max-vertical-offset="3165">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base-enemy.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/game/entities/base-enemy.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="1" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3780">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menus.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/game/menus.js">
+      <file leaf-file-name="actor-follower.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-follower.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="63" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="3780">
+            <state line="23" column="20" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="2190">
+              <folding>
+                <element signature="e#1207#2098#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Path.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/plugins/Path.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3300">
               <folding />
             </state>
           </provider>
@@ -68,22 +143,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/game/entities/object-pu-life.js" />
-        <option value="$PROJECT_DIR$/lib/game/screens/start-screen.js" />
-        <option value="$PROJECT_DIR$/lib/game/entities/actor-enemySpawner.js" />
-        <option value="$PROJECT_DIR$/lib/game/entities/object-pu-miniship.js" />
-        <option value="$PROJECT_DIR$/lib/game/entities/object-pu-turret.js" />
-        <option value="$PROJECT_DIR$/lib/game/SoundManager.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/actor-testFollower.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/actor-follower.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/base-actor.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/base-enemy.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/actor-companion.js" />
         <option value="$PROJECT_DIR$/lib/game/entities/actor-turret.js" />
-        <option value="$PROJECT_DIR$/lib/game/entities/actor-enemyBoss.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/actor-player.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/base-player.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="19" />
+    <option name="x" value="619" />
     <option name="y" value="22" />
-    <option name="width" value="1313" />
-    <option name="height" value="920" />
+    <option name="width" value="1044" />
+    <option name="height" value="982" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -127,7 +202,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -188,6 +262,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="game" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -216,18 +326,20 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="Settings.JavaScript" />
     <property name="JavaScriptLanguageLevel" value="ES5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="JavaScriptPreferStrict" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -241,14 +353,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -257,6 +361,14 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -299,14 +411,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="19" y="22" width="1313" height="920" extended-state="0" />
-    <editor active="false" />
+    <frame x="619" y="22" width="1044" height="982" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30214205" sideWeight="0.75574714" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31530845" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24425288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -315,7 +428,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30214205" sideWeight="0.7796452" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -325,7 +437,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1874311" sideWeight="0.81232494" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30214205" sideWeight="0.7796452" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -334,10 +446,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25396827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23519313" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -366,54 +478,60 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/game/entities/base-actor.js">
+    <entry file="file://$PROJECT_DIR$/lib/game/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="30" selection-start="615" selection-end="615" vertical-scroll-proportion="0.489335" vertical-offset="0" max-vertical-offset="797" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/plugins/pause.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="7" selection-start="656" selection-end="656" vertical-scroll-proportion="0.4140527" vertical-offset="105" max-vertical-offset="975" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game/SoundManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="25" selection-start="1825" selection-end="1825" vertical-scroll-proportion="0.6775408" vertical-offset="0" max-vertical-offset="797">
+        <state line="129" column="42" selection-start="5038" selection-end="5038" vertical-scroll-proportion="0.0" vertical-offset="1832" max-vertical-offset="5280">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-enemySpawner.js">
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/base-enemy.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="36" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.56461734" vertical-offset="0" max-vertical-offset="1815">
+        <state line="10" column="1" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3780">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-enemyBoss.js">
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-testFollower.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="297" column="38" selection-start="11641" selection-end="11641" vertical-scroll-proportion="0.3199498" vertical-offset="4200" max-vertical-offset="9300">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-companion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="22" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1680">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-turret.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="11" selection-start="3630" selection-end="3630" vertical-scroll-proportion="0.0" vertical-offset="973" max-vertical-offset="1770">
+        <state line="12" column="32" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1770">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game/menus.js">
+    <entry file="file://$PROJECT_DIR$/lib/impact/entity.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="63" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3780">
+        <state line="1" column="0" selection-start="11" selection-end="27" vertical-scroll-proportion="0.027027028" vertical-offset="0" max-vertical-offset="6255">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-player.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="37" selection-start="1468" selection-end="1468" vertical-scroll-proportion="0.77164364" vertical-offset="60" max-vertical-offset="3165">
+        <state line="20" column="40" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3060">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/base-player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="26" selection-start="712" selection-end="712" vertical-scroll-proportion="0.6486486" vertical-offset="0" max-vertical-offset="2400">
           <folding />
         </state>
       </provider>
