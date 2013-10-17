@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b343c293-6438-476e-8855-e022877b17e8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/actor-enemySpawner.js" afterPath="$PROJECT_DIR$/lib/game/entities/actor-enemySpawner.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/actor-enemySpinShip.js" afterPath="$PROJECT_DIR$/lib/game/entities/actor-enemySpinShip.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/actor-follower.js" afterPath="$PROJECT_DIR$/lib/game/entities/actor-follower.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/actor-testFollower.js" afterPath="$PROJECT_DIR$/lib/game/entities/actor-testFollower.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/actor-player.js" afterPath="$PROJECT_DIR$/lib/game/entities/actor-player.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/pathPatterns.js" afterPath="$PROJECT_DIR$/lib/game/pathPatterns.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="impact.iws" />
@@ -37,19 +39,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="actor-testFollower.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-testFollower.js">
+      <file leaf-file-name="pathPatterns.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/game/pathPatterns.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="20" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
+            <state line="22" column="38" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3075">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pathPatterns.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/game/pathPatterns.js">
+      <file leaf-file-name="actor-enemySpinShip-Path.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-enemySpinShip-Path.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="0" selection-start="3567" selection-end="3567" vertical-scroll-proportion="0.0" vertical-offset="1374" max-vertical-offset="2220">
+            <state line="9" column="5" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
               <folding />
             </state>
           </provider>
@@ -58,7 +60,7 @@
       <file leaf-file-name="actor-follower.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-follower.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="1264" selection-end="1264" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2340">
+            <state line="70" column="0" selection-start="3692" selection-end="3692" vertical-scroll-proportion="0.0" vertical-offset="482" max-vertical-offset="2325">
               <folding>
                 <element signature="e#1293#2294#0" expanded="false" />
               </folding>
@@ -66,10 +68,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="actor-enemySpawner.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="actor-player.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-player.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="28" selection-start="2439" selection-end="2439" vertical-scroll-proportion="0.29161605" vertical-offset="795" max-vertical-offset="3075">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actor-enemySpawner.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-enemySpawner.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="13" selection-start="4539" selection-end="4539" vertical-scroll-proportion="0.085365854" vertical-offset="1685" max-vertical-offset="2505">
+            <state line="64" column="49" selection-start="2372" selection-end="2372" vertical-scroll-proportion="-6.923077" vertical-offset="780" max-vertical-offset="2115">
               <folding />
             </state>
           </provider>
@@ -93,14 +104,14 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/game/entities/object-fragmentSpawner.js" />
-        <option value="$PROJECT_DIR$/lib/game/entities/object-playerBullet.js" />
-        <option value="$PROJECT_DIR$/lib/game/main.js" />
         <option value="$PROJECT_DIR$/lib/game/entities/base-enemy.js" />
-        <option value="$PROJECT_DIR$/lib/game/pathPatterns.js" />
-        <option value="$PROJECT_DIR$/lib/game/entities/actor-follower.js" />
         <option value="$PROJECT_DIR$/lib/game/entities/actor-testFollower.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/actor-follower.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/actor-enemySpinShip.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/actor-enemySpinShip-Path.js" />
+        <option value="$PROJECT_DIR$/lib/game/pathPatterns.js" />
         <option value="$PROJECT_DIR$/lib/game/entities/actor-enemySpawner.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/actor-player.js" />
       </list>
     </option>
   </component>
@@ -396,27 +407,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/plugins/impact-tween/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="70" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.47147846" vertical-offset="0" max-vertical-offset="3750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game/entities/base-enemy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="352" selection-end="382" vertical-scroll-proportion="0.16403402" vertical-offset="0" max-vertical-offset="3600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game/entities/object-playerBullet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="875" selection-end="924" vertical-scroll-proportion="0.5285541" vertical-offset="0" max-vertical-offset="1005">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/game/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="106" column="42" selection-start="3975" selection-end="3975" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4875">
@@ -424,32 +414,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-enemySpinShip-Path.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="5" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-enemySpinShip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="463" selection-end="463" vertical-scroll-proportion="-0.093560144" vertical-offset="287" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-testFollower.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="20" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
+        <state line="22" column="26" selection-start="622" selection-end="622" vertical-scroll-proportion="0.2527339" vertical-offset="122" max-vertical-offset="945">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/game/pathPatterns.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="0" selection-start="3567" selection-end="3567" vertical-scroll-proportion="0.0" vertical-offset="1374" max-vertical-offset="2220">
+        <state line="22" column="38" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-enemySpawner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="49" selection-start="2372" selection-end="2372" vertical-scroll-proportion="-6.923077" vertical-offset="780" max-vertical-offset="2115">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-follower.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="1264" selection-end="1264" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2340">
+        <state line="70" column="0" selection-start="3692" selection-end="3692" vertical-scroll-proportion="0.0" vertical-offset="482" max-vertical-offset="2325">
           <folding>
             <element signature="e#1293#2294#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-enemySpawner.js">
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-player.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="13" selection-start="4539" selection-end="4539" vertical-scroll-proportion="0.085365854" vertical-offset="1685" max-vertical-offset="2505">
+        <state line="69" column="28" selection-start="2439" selection-end="2439" vertical-scroll-proportion="0.29161605" vertical-offset="795" max-vertical-offset="3075">
           <folding />
         </state>
       </provider>
