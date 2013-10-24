@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b343c293-6438-476e-8855-e022877b17e8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/game/1234.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/resources/start-screen/screens.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/resources/tryrian-gfx/TSHPSP~1.GIF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/resources/tryrian-gfx/player-ship.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/Resources/Boss Sprites/bossShip.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/Resources/Boss Sprites/destroy-ports.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/Resources/Boss Sprites/health-bar.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/textures/Untitled-1.psd" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/actor-enemyOrb.js" afterPath="$PROJECT_DIR$/lib/game/entities/actor-enemyOrb.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/game/entities/actor-enemyOrb.js" afterPath="$PROJECT_DIR$/lib/game/entities/actor-enemyChomper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/UI/PlayerInfoLeft.js" afterPath="$PROJECT_DIR$/lib/game/UI/PlayerInfoLeft.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/actor-enemyOrbBlue.js" afterPath="$PROJECT_DIR$/lib/game/entities/actor-enemyOrbBlue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/actor-enemySentinel.js" afterPath="$PROJECT_DIR$/lib/game/entities/actor-enemySentinel.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/actor-enemySpawner.js" afterPath="$PROJECT_DIR$/lib/game/entities/actor-enemySpawner.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/impact/game.js" afterPath="$PROJECT_DIR$/lib/impact/game.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/base-enemy.js" afterPath="$PROJECT_DIR$/lib/game/entities/base-enemy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/base-enemyBullet.js" afterPath="$PROJECT_DIR$/lib/game/entities/base-enemyBullet.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/main.js" afterPath="$PROJECT_DIR$/lib/game/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/plugins/parallax.js" afterPath="$PROJECT_DIR$/lib/plugins/parallax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/pathPatterns.js" afterPath="$PROJECT_DIR$/lib/game/pathPatterns.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/object-enemyBulletBlue.js" afterPath="$PROJECT_DIR$/lib/game/entities/object-enemyBulletBlue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/object-enemyBulletGreen.js" afterPath="$PROJECT_DIR$/lib/game/entities/object-enemyBulletGreen.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="impact.iws" />
@@ -49,28 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/game/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="23" selection-start="813" selection-end="813" vertical-scroll-proportion="-18.37037" vertical-offset="0" max-vertical-offset="5376">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pathPatterns.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/game/pathPatterns.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="46" selection-start="2452" selection-end="2452" vertical-scroll-proportion="0.0" vertical-offset="749" max-vertical-offset="3472">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="actor-enemyOrb.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-enemyOrb.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="65" selection-start="312" selection-end="312" vertical-scroll-proportion="0.12903225" vertical-offset="0" max-vertical-offset="1280">
+            <state line="4" column="18" selection-start="52" selection-end="52" vertical-scroll-proportion="0.07990012" vertical-offset="0" max-vertical-offset="5376">
               <folding />
             </state>
           </provider>
@@ -94,13 +71,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/plugins/parallax.js" />
         <option value="$PROJECT_DIR$/lib/game/entities/actor-enemySpawner.js" />
-        <option value="$PROJECT_DIR$/lib/game/entities/actor-enemyOrbBlue.js" />
-        <option value="$PROJECT_DIR$/lib/game/entities/actor-enemyOrb.js" />
-        <option value="$PROJECT_DIR$/lib/game/entities/old/actor-enemySentinel.js" />
-        <option value="$PROJECT_DIR$/lib/game/main.js" />
-        <option value="$PROJECT_DIR$/lib/game/pathPatterns.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/object-enemyBulletBlue.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/base-enemy.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/base-enemyBullet.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/object-enemyBulletGreen.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/actor-enemyChomper.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/object-enemyBulletPurple.js" />
         <option value="$PROJECT_DIR$/lib/game/entities/actor-enemySentinel.js" />
       </list>
     </option>
@@ -108,8 +85,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="705" />
     <option name="y" value="22" />
-    <option name="width" value="1003" />
-    <option name="height" value="878" />
+    <option name="width" value="1162" />
+    <option name="height" value="962" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -199,6 +176,10 @@
               <option name="myItemId" value="media" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -213,10 +194,6 @@
               <option name="myItemId" value="media" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="textures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -268,7 +245,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="entities" />
+              <option name="myItemId" value="UI" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -291,10 +268,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="entities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="old" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -385,14 +358,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="705" y="22" width="1003" height="878" extended-state="0" />
+    <frame x="705" y="22" width="1162" height="962" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2981057" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25731498" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -436,7 +409,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
@@ -452,58 +425,58 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/impact/game.js">
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/base-enemy.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="287" column="28" selection-start="8709" selection-end="8712" vertical-scroll-proportion="0.3329776" vertical-offset="3706" max-vertical-offset="5838">
+        <state line="8" column="10" selection-start="364" selection-end="364" vertical-scroll-proportion="0.15861215" vertical-offset="0" max-vertical-offset="3728">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/plugins/parallax.js">
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/base-enemyBullet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="23" selection-start="989" selection-end="989" vertical-scroll-proportion="0.17786561" vertical-offset="0" max-vertical-offset="1065">
+        <state line="3" column="21" selection-start="124" selection-end="124" vertical-scroll-proportion="0.058536585" vertical-offset="0" max-vertical-offset="896">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/impact/background-map.js">
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/object-enemyBulletGreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="23" selection-start="3185" selection-end="3191" vertical-scroll-proportion="0.536193" vertical-offset="1670" max-vertical-offset="3750">
+        <state line="14" column="16" selection-start="505" selection-end="505" vertical-scroll-proportion="0.25853658" vertical-offset="12" max-vertical-offset="832">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game/main.js">
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/object-enemyBulletBlue.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="23" selection-start="813" selection-end="813" vertical-scroll-proportion="-18.37037" vertical-offset="0" max-vertical-offset="5376">
+        <state line="7" column="41" selection-start="348" selection-end="348" vertical-scroll-proportion="0.13658537" vertical-offset="0" max-vertical-offset="820">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game/pathPatterns.js">
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/object-enemyBulletPurple.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="46" selection-start="2452" selection-end="2452" vertical-scroll-proportion="0.0" vertical-offset="749" max-vertical-offset="3472">
+        <state line="20" column="30" selection-start="707" selection-end="707" vertical-scroll-proportion="0.3902439" vertical-offset="0" max-vertical-offset="820">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-enemySentinel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="43" selection-start="1638" selection-end="1638" vertical-scroll-proportion="0.9737206" vertical-offset="0" max-vertical-offset="1104">
+        <state line="1" column="27" selection-start="101" selection-end="101" vertical-scroll-proportion="0.019323671" vertical-offset="0" max-vertical-offset="1120">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-testFollower.js">
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-enemyChomper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="14" selection-start="627" selection-end="627" vertical-scroll-proportion="0.42047027" vertical-offset="0" max-vertical-offset="1088">
+        <state line="10" column="1" selection-start="423" selection-end="423" vertical-scroll-proportion="0.19323671" vertical-offset="0" max-vertical-offset="1408">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game/entities/actor-enemyOrb.js">
+    <entry file="file://$PROJECT_DIR$/lib/game/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="65" selection-start="312" selection-end="312" vertical-scroll-proportion="0.12903225" vertical-offset="0" max-vertical-offset="1280">
+        <state line="4" column="18" selection-start="52" selection-end="52" vertical-scroll-proportion="0.07990012" vertical-offset="0" max-vertical-offset="5376">
           <folding />
         </state>
       </provider>
