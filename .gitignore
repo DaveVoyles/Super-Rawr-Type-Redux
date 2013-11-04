@@ -228,3 +228,9 @@ pip-log.txt
 *.css
 *.hgignore
 .*config
+
+####################
+ Vincent's files
+ ##################
+lib/game/.Jsparkle.js
+lib/game/.canvasLib.js
