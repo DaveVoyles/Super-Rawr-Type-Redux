@@ -230,7 +230,9 @@ pip-log.txt
 .*config
 
 ####################
- Vincent's files
- ##################
-lib/game/.Jsparkle.js
-lib/game/.canvasLib.js
+ Impact.js files
+####################
+lib/impact
+lib/weltmeister
+tools/
+weltmeister.html
