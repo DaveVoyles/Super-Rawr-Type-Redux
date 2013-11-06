@@ -232,7 +232,7 @@ pip-log.txt
 ####################
  Impact.js files
 ####################
-lib/impact
+lib/impact/
 lib/weltmeister
 tools/
 weltmeister.html
